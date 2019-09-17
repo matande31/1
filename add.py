@@ -54,13 +54,8 @@ else:
     xa = np.append(xa, temp1, 1)
     yb = np.delete(yb, np.s_[k1:t1], 1)
 
+print ("The big sum is: ")
 print (np.add(xa, ya))
-print ("")
+print ("The small sum is: ")
 print (np.add(xb, yb))
 
-
-"""
-x3 = np.delete(np.delete(x, 3, 0), 2, 0)
-y3 = np.delete(y, 3, 1)
-print (np.add(x3, y3))
-"""
